@@ -1,6 +1,6 @@
 .App {
   --policeBlue: #34495E;
-  --pastelOrange: #ffb347;
+  --pastelOrange: 255,179,71;
   
   text-align: center;
   color: var(--policeBlue);
