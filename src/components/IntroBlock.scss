@@ -1,0 +1,17 @@
+.IntroBlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--pastelOrange);
+    max-width: 1000px;
+    
+
+    .startButton {
+        border: none;
+        background-color: var(--policeBlue);
+        color: var(--pastelOrange);
+        font-weight: bold;
+        padding: 10px 20px;
+        border-radius: 5px;
+    }
+}
