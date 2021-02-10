@@ -1,9 +1,14 @@
 .App {
+  --policeBlue: #34495E;
+  --pastelOrange: #ffb347;
+  
   text-align: center;
+  color: var(--policeBlue);
+  max-width: 1000px;
+  
+  
+  
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
