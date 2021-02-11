@@ -3,6 +3,7 @@ import './ImageBlock.scss';
 
 import netherlands from '../assets/pictures/netherlands-pexels-photo-952632.jpeg';
 import IntroBlock from './IntroBlock';
+import PageSlider from './PageSlider';
 
 const ImageBlock = () => {
     const style = {
@@ -11,7 +12,7 @@ const ImageBlock = () => {
 
     return (
         <div className="ImageBlock" style={style}>
-            <IntroBlock />
+            <PageSlider />
         </div>
     )
 }
