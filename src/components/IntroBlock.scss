@@ -10,45 +10,45 @@
     }
     
 
-    .startButton {
-        border: none;
-        background-color: var(--policeBlue);
-        color: rgba(var(--pastelOrange));
-        font-weight: bold;
-        padding: 10px 20px;
-        border-radius: 5px;
-        width:200px;
-        text-align: center;
-        transition: all 0.5s;
-        cursor: pointer;
-        font-size: 20px;
-    }
+    // .startButton {
+    //     border: none;
+    //     background-color: var(--policeBlue);
+    //     color: rgba(var(--pastelOrange));
+    //     font-weight: bold;
+    //     padding: 10px 20px;
+    //     border-radius: 5px;
+    //     width:200px;
+    //     text-align: center;
+    //     transition: all 0.5s;
+    //     cursor: pointer;
+    //     font-size: 20px;
+    // }
 
-    .startButton:focus {
-        outline: none;
-      }
-    .startButton span {
-            cursor: pointer;
-            display: inline-block;
-            position: relative;
-            transition: 0.5s;
-          }
-    .startButton span:after {
-            content: '\00bb';
-            position: absolute;
-            opacity: 0;
-            top: 0;
-            right: -20px;
-            transition: 0.5s;
-          }
+    // .startButton:focus {
+    //     outline: none;
+    //   }
+    // .startButton span {
+    //         cursor: pointer;
+    //         display: inline-block;
+    //         position: relative;
+    //         transition: 0.5s;
+    //       }
+    // .startButton span:after {
+    //         content: '\00bb';
+    //         position: absolute;
+    //         opacity: 0;
+    //         top: 0;
+    //         right: -20px;
+    //         transition: 0.5s;
+    //       }
           
-    .startButton:hover span {
-            padding-right: 25px;
-          }
+    // .startButton:hover span {
+    //         padding-right: 25px;
+    //       }
           
-    .startButton:hover span:after {
-            opacity: 1;
-            right: 0;
-          }     
+    // .startButton:hover span:after {
+    //         opacity: 1;
+    //         right: 0;
+    //       }     
 }
 

@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from './Button';
 import './IntroBlock.scss';
 
 const IntroBlock = () => {
@@ -9,9 +10,7 @@ const IntroBlock = () => {
                     <h1>Hallo! Welkom!</h1>
                     <h2>Find out how well you know the Netherlands.</h2>
                 </div>
-                <button className="startButton">
-                    <span>START </span>
-                </button>
+                <Button />
             </div>
             
         </div>
