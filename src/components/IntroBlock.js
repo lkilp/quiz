@@ -10,7 +10,7 @@ const IntroBlock = () => {
                     <h1>Hallo! Welkom!</h1>
                     <h2>Find out how well you know the Netherlands.</h2>
                 </div>
-                <Button />
+                <Button title="START "/>
             </div>
             
         </div>
