@@ -10,9 +10,18 @@ import sea from './assets/pictures/sea-pexels-photo-1298684.jpeg';
 import shoes from './assets/pictures/shoes-wood-tree-holland-615328.jpeg';
 import tulips from './assets/pictures/tulips-pexels-photo-4278124.jpeg';
 
-const createQuestion = (question, answers, image) => ({
+const createQuestion = (question, answerValues, image) => ({
   text: question,
-  answers,
+  answers: answerValues.map((answer,i) => {
+      let correct = false;
+      if (i === 0) {
+          correct = true;
+      }
+      return {
+          correct,
+          text: answer.toString(),
+      }
+  }),
   image,
 })
 
@@ -39,10 +48,10 @@ const questions = [
   animal,
   ),
   createQuestion('How much of the Dutch territory is below the sea level?',
-    [ 1/3,
-      1/4,
-      1/2,
-      1/6 ],
+    [ '1/3',
+      '1/4',
+      '1/2',
+      '1/6' ],
   sea,
   ),
   createQuestion('What type of tree were the wooden shoes traditionally made of?',
@@ -54,7 +63,7 @@ const questions = [
   ),
   createQuestion('Where do tulips originate from?',
     [ 'Turkey',
-      'The Netherlands'
+      'The Netherlands',
       'India',
       'Venezuela' ],
   tulips,

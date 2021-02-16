@@ -10,7 +10,7 @@ const QuestionBlock = (props) => {
                     const id = 'answer-'+i;
                     return (
                         <div className="answer" onClick={props.goToNextScreen} >
-                            {answer}
+                            {answer.text}{answer.correct ? 'y':'n'}
                         </div>
                     )
                 })
