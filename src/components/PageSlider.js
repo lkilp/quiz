@@ -5,10 +5,13 @@ import './PageSlider.scss';
 import QuestionBlock from './QuestionBlock';
 import ResultBlock from './ResultBlock';
 
-const PageSlider = () => {
+const PageSlider = (props) => {
+    const { newPage } = props;
     return (
         <div className="PageSlider">
-            <ResultBlock/>
+            <div className="page">
+                {newPage}
+            </div>
         </div>
     )
 }

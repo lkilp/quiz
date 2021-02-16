@@ -4,14 +4,13 @@ import './ImageBlock.scss';
 import netherlands from '../assets/pictures/netherlands-pexels-photo-952632.jpeg';
 import PageSlider from './PageSlider';
 
-const ImageBlock = () => {
+const ImageBlock = (props) => {
     const style = {
-        backgroundImage: `url(${netherlands})`,
+        backgroundImage: `url(${props.newImage})`,
     };
 
     return (
         <div className="ImageBlock" style={style}>
-            <PageSlider />
         </div>
     )
 }

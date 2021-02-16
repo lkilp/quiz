@@ -7,27 +7,27 @@
         margin-top: 0px;
     }
 
-    div {
+    .answer {
         padding: 20px;
         background-color: rgba(white, 0.3);
         margin: 5px;
         border-radius: 5px;
         text-align: left;
+        font-weight: bold;
+        font-size: 25px;
+        padding-left: 10px;
+        cursor: pointer;
 
-        input:hover {
-            cursor: pointer;
+        &:hover {
+            background-color: rgba(var(--opacityPoliceBlue), 0.8);
+            color: var(--pastelOrange);
         }
 
-        label {
-            font-weight: bold;
-            font-size: 25px;
-            padding-left: 10px;
-            
+        &:active {
+            font-size: 30px;
         }
 
-        label:hover {
-            cursor: pointer;
+        
         }
-    }
 
 }

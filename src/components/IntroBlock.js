@@ -2,7 +2,7 @@ import React from 'react';
 import Button from './Button';
 import './IntroBlock.scss';
 
-const IntroBlock = () => {
+const IntroBlock = (props) => {
     return (
         <div className="IntroBlock">
             <div className="introBlockContent">
@@ -10,7 +10,7 @@ const IntroBlock = () => {
                     <h1>Hallo! Welkom!</h1>
                     <h2>Find out how well you know the Netherlands.</h2>
                 </div>
-                <Button title="START "/>
+                <Button title="START " onClick={props.goToNextScreen} />
             </div>
             
         </div>
