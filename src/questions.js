@@ -9,9 +9,10 @@ import kisses from './assets/pictures/kisses-pexels-photo-3935572.jpeg';
 import sea from './assets/pictures/sea-pexels-photo-1298684.jpeg';
 import shoes from './assets/pictures/shoes-wood-tree-holland-615328.jpeg';
 import tulips from './assets/pictures/tulips-pexels-photo-4278124.jpeg';
+import shuffleAnswers from './shuffle-answers';
 
-const createQuestion = (question, answerValues, image) => ({
-  text: question,
+const createQuestion = (questionText, answerValues, image) => ({
+  text: questionText,
   answers: answerValues.map((answer,i) => {
       let correct = false;
       if (i === 0) {
@@ -25,7 +26,9 @@ const createQuestion = (question, answerValues, image) => ({
   image,
 })
 
-const questions = [
+
+
+const questions = shuffleAnswers([
   createQuestion('Orange carrots were bred in the Netherlands in the 16th century in honour of the house of Orange. Before then they were…',
     [ 'white, yellow, black, purple or red',
       'brown, yellow, black or purple',
@@ -96,6 +99,6 @@ const questions = [
       4 ],
   kisses,
   ),
-];
+]);
 
 export default questions;
