@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "./static/css/main.01cfa8bb.chunk.css",
+    "main.js": "./static/js/main.bab3c277.chunk.js",
+    "main.js.map": "./static/js/main.bab3c277.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.27ba7569.js",
+    "runtime-main.js.map": "./static/js/runtime-main.27ba7569.js.map",
+    "static/js/2.524f082d.chunk.js": "./static/js/2.524f082d.chunk.js",
+    "static/js/2.524f082d.chunk.js.map": "./static/js/2.524f082d.chunk.js.map",
+    "static/js/3.9779ad11.chunk.js": "./static/js/3.9779ad11.chunk.js",
+    "static/js/3.9779ad11.chunk.js.map": "./static/js/3.9779ad11.chunk.js.map",
+    "index.html": "./index.html",
+    "static/css/main.01cfa8bb.chunk.css.map": "./static/css/main.01cfa8bb.chunk.css.map",
+    "static/js/2.524f082d.chunk.js.LICENSE.txt": "./static/js/2.524f082d.chunk.js.LICENSE.txt",
+    "static/media/animal-bull-landscape-nature-mammal-139399.f9b8a317.jpeg": "./static/media/animal-bull-landscape-nature-mammal-139399.f9b8a317.jpeg",
+    "static/media/bicycles-pexels-photo-861014.c4df72f3.jpeg": "./static/media/bicycles-pexels-photo-861014.c4df72f3.jpeg",
+    "static/media/bridges-pexels-photo-2031706.4cd87940.jpeg": "./static/media/bridges-pexels-photo-2031706.4cd87940.jpeg",
+    "static/media/carrots-pexels-photo-3650647.6c5368bd.jpeg": "./static/media/carrots-pexels-photo-3650647.6c5368bd.jpeg",
+    "static/media/cheese-pexels-photo-5732760.85ee072b.jpeg": "./static/media/cheese-pexels-photo-5732760.85ee072b.jpeg",
+    "static/media/gin-pexels-photo-2559722.9b8f7244.jpeg": "./static/media/gin-pexels-photo-2559722.9b8f7244.jpeg",
+    "static/media/kisses-pexels-photo-3935572.7885b55d.jpeg": "./static/media/kisses-pexels-photo-3935572.7885b55d.jpeg",
+    "static/media/netherlands-pexels-photo-952632.a7b49dde.jpeg": "./static/media/netherlands-pexels-photo-952632.a7b49dde.jpeg",
+    "static/media/sea-pexels-photo-1298684.11b9da11.jpeg": "./static/media/sea-pexels-photo-1298684.11b9da11.jpeg",
+    "static/media/shoes-wood-tree-holland-615328.1157a479.jpeg": "./static/media/shoes-wood-tree-holland-615328.1157a479.jpeg",
+    "static/media/tulips-pexels-photo-4278124.e88f144f.jpeg": "./static/media/tulips-pexels-photo-4278124.e88f144f.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.27ba7569.js",
+    "static/js/2.524f082d.chunk.js",
+    "static/css/main.01cfa8bb.chunk.css",
+    "static/js/main.bab3c277.chunk.js"
+  ]
+}
